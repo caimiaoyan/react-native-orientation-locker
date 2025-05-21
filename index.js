@@ -1,26 +1,15 @@
-//
-//  react-native-orientation-locker
-//
-//
-//  Created by Wonday on 17/5/12.
-//  Copyright (c) wonday.org All rights reserved.
-//
+import Orientation from './android_js_src/Orientation';
 
-"use strict";
+export * from './android_js_src/hooks';
 
-import Orientation from './src/orientation';
-
-export * from './src/hooks';
-export * from './src/OrientationLocker';
+export default Orientation;
 
 export const OrientationType = {
-  PORTRAIT: 'PORTRAIT',
+  'PORTRAIT': 'PORTRAIT',
   'PORTRAIT-UPSIDEDOWN': 'PORTRAIT-UPSIDEDOWN',
   'LANDSCAPE-LEFT': 'LANDSCAPE-LEFT',
   'LANDSCAPE-RIGHT': 'LANDSCAPE-RIGHT',
   'FACE-UP': 'FACE-UP',
   'FACE-DOWN': 'FACE-DOWN',
-  UNKNOWN: 'UNKNOWN',
+  'UNKNOWN': 'UNKNOWN',
 };
-
-export default Orientation;
