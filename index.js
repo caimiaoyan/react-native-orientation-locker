@@ -1,4 +1,4 @@
-import Orientation from './mian';
+import Orientation from './main';
 
 export * from './main';
 
