@@ -4,7 +4,7 @@
     "summary": "A react-native module that can listen on orientation changing of device",
     "description": "A react-native module that can listen on orientation changing of device, get current orientation, lock to preferred orientation.",
     "homepage": "https://github.com/wonday/react-native-orientation-locker",
-    "main": "index.js",
+    "main": "index",
     "types": "index.d.ts",
     "repository": {
         "type": "git",
